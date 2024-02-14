@@ -38,7 +38,7 @@
     >
       <slot>{{ heading }}</slot>
     </component>
-    <CvSearch expandable="true "/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, aut.</p>
 
   </th>
 </template>
