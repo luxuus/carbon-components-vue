@@ -5,6 +5,8 @@
     :aria-sort="internalOrder"
     :style="skeleton && headingStyle"
   >
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, aut.</p>
+
     <button
       v-if="sortable"
       type="button"
@@ -38,7 +40,6 @@
     >
       <slot>{{ heading }}</slot>
     </component>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, aut.</p>
 
   </th>
 </template>
