@@ -29,6 +29,7 @@
       <ArrowDown16 :class="`${carbonPrefix}--table-sort__icon`" />
       <Arrows16 :class="`${carbonPrefix}--table-sort__icon-unsorted`" />
     </button>
+    
     <component
       :is="headingLabelTag"
       v-else
@@ -37,6 +38,8 @@
     >
       <slot>{{ heading }}</slot>
     </component>
+    <CvSearch expandable="true "/>
+
   </th>
 </template>
 
